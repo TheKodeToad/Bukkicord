@@ -1,0 +1,16 @@
+name: Bukkicord
+version: "${project.version}"
+main: me.mcblueparrot.bukkicord.Bukkicord
+api-version: 1.16
+authors: [ mcblueparrot ]
+description: Yet another Bukkit -> Discord bridge.
+depend:
+  - PlaceholderAPI
+permissions:
+  bukkicord.management:
+    description: Management permission for Bukkicord.
+    default: op
+commands:
+  bukkicord:
+    description: Main command for Bukkicord.
+    permission: bukkicord.management

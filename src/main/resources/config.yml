@@ -1,0 +1,11 @@
+token: 0
+
+channels:
+  minecraft-chat:
+    message:
+      text: \%player_displayname% %message%
+      embeds:
+        -
+          author:
+            name: \%player_displayname%
+          title: \%message%
